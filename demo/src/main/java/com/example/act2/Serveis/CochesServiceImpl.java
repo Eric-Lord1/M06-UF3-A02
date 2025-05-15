@@ -51,5 +51,9 @@ public class CochesServiceImpl implements CochesService {
         return cochesRepo.deleteById(id);
     }
 
+    @Override
+    public Flux<Coches> findByMarca(String regex) {
+        return cochesRepo.findByMarcaRegex(regex);
+    }
 }
 

@@ -45,5 +45,10 @@ public class CochesController {
     public Mono<Void> delete(@PathVariable String id) {
         return cochesService.delete(id);
     }
+
+    @GetMapping("/search/marca")
+    public Flux<Coches> findByMarca(@RequestParam String marca) {
+        return cochesService.findByMarca(marca);
+    }
 }
 
