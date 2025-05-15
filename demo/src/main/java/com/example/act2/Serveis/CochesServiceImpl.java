@@ -41,7 +41,7 @@ public class CochesServiceImpl implements CochesService {
 
     @Override
     public Mono<Coches> update(CochesDTO cochesDTO) {
-        return cochesRepo.findById(cochesDTO.matricula()) // Usamos 'matricula' como clave única alternativa
+        return cochesRepo.findById(cochesDTO.matricula())
             .map(existing -> cochesMapper.toCoches(cochesDTO))
             .flatMap(cochesRepo::save);
     }
