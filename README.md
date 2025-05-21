@@ -19,7 +19,7 @@ Foto del post.
 ![image](https://github.com/user-attachments/assets/48bcb04a-d5a7-4b48-b8df-b2a43dc60c2b)
 
 Foto del put.
-![image](https://github.com/user-attachments/assets/37d294c2-8173-414e-9b15-ebb93a5adc17)
+![image](https://github.com/user-attachments/assets/c9d41c11-7d6d-426e-bd2c-064d5b360522)
 
 Foto del remove.
 ![image](https://github.com/user-attachments/assets/ed6e14ce-350a-4003-86d2-8262bc096545)
